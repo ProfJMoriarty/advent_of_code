@@ -1,5 +1,3 @@
-# read File, parse reports
-
 counter = 0
 
 def safe?(arr)
@@ -26,7 +24,6 @@ File.readlines('input.txt', chomp: true).each do |line|
   if safe?(arr)
     # part 1
     counter += 1
-    # 680
   else
     # part 2
     safe = false
@@ -36,7 +33,6 @@ File.readlines('input.txt', chomp: true).each do |line|
     end
 
     counter += 1 if safe
-    # 710
   end
 end
 

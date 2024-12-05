@@ -1,4 +1,3 @@
-mul_regex = /mu l\([0-9]{1,3},+[0-9]{1,3}\)/
 master_regex = /(do\(\)|don't\(\)|mul\([0-9]{1,3},+[0-9]{1,3}\))/
 
 operations = []

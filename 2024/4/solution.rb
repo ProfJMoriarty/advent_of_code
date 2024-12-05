@@ -1,5 +1,3 @@
-require 'debug'
-
 def diagonals(matrix)
   rows = matrix.size
   cols = matrix.first.size
